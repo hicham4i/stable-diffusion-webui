@@ -26,8 +26,8 @@ wget https://raw.githubusercontent.com/Stability-AI/stablediffusion/main/configs
 cp v2-inference.yaml stable-diffusion-webui/models/Stable-diffusion/v2-1_512-ema-pruned.yaml
 
 # change ownership of the web UI so that a regular user can start the server
-sudo chown -R ubuntu:ubuntu stable-diffusion-webui/
+#sudo chown -R ubuntu:ubuntu stable-diffusion-webui/
 
 # start the server as user 'ubuntu'
-sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen > log.txt
+#sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen > log.txt
 
